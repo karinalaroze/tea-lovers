@@ -1,0 +1,22 @@
+{
+  "name": "tea-lovers",
+  "version": "1.0.0",
+  "description": "Proyecto Tea Lovers",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinalaroze/tea-lovers.git"
+  },
+  "author": "Karina Laroze Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinalaroze/tea-lovers/issues"
+  },
+  "homepage": "https://github.com/karinalaroze/tea-lovers#readme"
+}
