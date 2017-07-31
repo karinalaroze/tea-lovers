@@ -7,17 +7,25 @@
 	  <link rel="stylesheet" href="dist/css/style.min.css">
 	</head>
 	<body>
-	<header>
-		<!-- aqui va mi menu desplegable -->  
-		<div class="navbar-fixed">
-			<nav>
-        
-			</nav>
-		</div>
-		<img class="img-resposive" src="dist/img/fondo-bienvenida.jpg">
-	</header>
+ <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li><i class="material-icons">dehaze
+			</i></li>
+        </ul>
+      </div>
+    </nav>
+  </div> 
+  <section class="bienvenida">
+  	<img class="img-resposive" src="dist/img/fondo-bienvenida.jpg">
+  </section>       
 	<secion class="parte-uno">
 		<!-- aqui va el video -->
+		<video width="420" height="340" controls="true">
+               <source src="https://vimeo.com/148993635" type="video/mp4">
+        </video>
+
 
 	</secion>
 
@@ -31,7 +39,7 @@
 		</div>
 		<div class="row">
 				<div class="col l12 col s12">
-					<img class="img-resposive" src="dist/img/fondo-about.jpg">
+					
 				</div>
 			</div>
 	</section>
@@ -81,26 +89,26 @@
 	<section class="parte-cinco">
 		<div class="row">
 			<div class="col l12 col s12">
-				<img class="img-resposive" src="dist/img/disfruta.jpg">
+				<img class="img-resposive disfruta" src="dist/img/disfruta.jpg">
 			</div>
 		</div>
 	</section>
 	<section class="parte-seis">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 text-uno">
 					<h4>¿Cuánto té debo echar para una taza?</h4>
 					<p>Lo ideal son 3 gramos por taza. Para calcular cuánto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no se tiene basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que echemos solo va a influir en la intensidad del sabor del té y teniendo en cuenta que hay personas que les gusta el té más intenso que a otras, se puede modificar la cantidad que se se echa sin problemas. También debemos tener en cuenta que el Té Blanco tiene mucho mas volumen que el resto de tés y pot tanto, necesitaremos más cantidad para lograr los 3 gramos recomendados.</p>
 				</div>
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 img_uno">
 					<img class="img-resposive" src="dist/img/icon-1_360.png">
 				</div>
 			</div>
 			<div class="row">
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 img_dos">
 					<img src="dist/img/icon-2_360.png">
 				</div>
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 texto-dos">
 					<h4>¿Debo hervir el agua para hacer té?</h4>
 					<p>Nunca debemos echar agua hirviendo sobre las hebras de té. Si tenemos agua hirviendo la podemos utilizar siempre y cuando la hagamos disminuir de temperatura, bien esperando o bien mezclándola con agua fria. Hay u caso en el que es recomendable hervir el agua y es cuando queremos utilizar agua corriete y ésta es dura. En este caso debemos filtrarla. Hay unas reglas básicas de temperatura del agua que debemos cumplir si queremos obtener la mejor versión de nuestro té</p>
 						<li>Tés verdes 70 °C</li>
@@ -109,31 +117,37 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 texto-tres">
 					<h4>¿Cuántos tés e infusiones son recomendables al día?</h4>
 					<p>Cada persona tiene una tolerancia a la teina distinta de modo que tendrá que ver cuántas tazas de té puede tomar al día. No obstante, podemos compaginar tomar té con tomar otras infusiones sin teina como el rooibos, las infusiones frutales, las especiadas etc. Y de esta forma no nos tendremos que preocupar por si nos estimula demasiado. </p>
 				</div>
-				<div class="col l6 col s6">
+				<div class="col l6 col s6 img_tres">
 					<img src="dist/img/icon-3_360.png">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col l12 col s12">
+			<section class="parte-siete">
 					<img class="img-resposive" src="dist/img/parallax-4_720.jpg">
-				</div>
-			</div>
+			</section>
 			<div class="row">
 				<div class="col l12 col s12">
-					<div class="carousel carousel-slider">
-   						<a class="carousel-item" href="#one!"><img src="dist/img/slide1_720.jpg"></a>
-  						<a class="carousel-item" href="#two!"><img src="dist/img/slide2_720.jpg"></a>
-  						<a class="carousel-item" href="#two!"><img src="dist/img/slide3_720.jpg"></a>
- 					 </div>
+					<div class="slider">
+					<ul class="slides">
+					<li>
+						<img src="dist/img/slide1_720.jpg" alt="slider">
+					</li>
+					<li>
+						<img src="dist/img/slide2_720.jpg" alt="slider">
+					</li>
+					<li>
+						<img src="dist/img/slide3_720.jpg" alt="slider">
+					</li>
+				</ul>
+			</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="parte-siete">
+	<section class="parte-ocho">
 		<div class="row">
 			<div class="col l6 col s6">
 				<h5>AMAMOS EL TÉ</h5>
@@ -152,8 +166,13 @@
 			</div>
 		</div>
 	</section>
-	<footer>
-		<p>Te Encanto: Av Italia 1317, Providencia</p>
-	</footer>
+	<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 col s12">
+                <p class="grey-text text-lighten-4">Te Encanto: Av. Italia 1317. Providencia</p>
+              </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 	</body>
 </html>
