@@ -1,16 +1,139 @@
 
-.navbar-fixed{
-	background-color:$color_dos;
+.navigation{
+	background-color: $color_dos;
+}
+
+.logo-dos{
+    width:100vh;
+    height: 50vh;
+    margin-top: -150px;
 }
 
 .disfruta{
 	width:100%;
 }
 
+.bienvenida{
+	background-image: url('../img/fondo-bienvenida.jpg');
+	padding:40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.parte-dos{
+	background-image: url('../img/fondo-about.jpg');
+	padding: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+h1{
+	color: $color_cuatro;
+}
+
+h5{
+	color: $color_cuatro;
+}
+
+.mb0{
+	margin-bottom: 0;
+}
+
 .img_uno{
 	background-color:$color_piel;
 }
+
+.img_dos{
+	background-color: $color_verde;
+}
+
+.img_tres{
+	background-color:$color_pink;
+}
+
+.parte-tres{
+	h4{
+		color:$color_pink;
+	}
+	
+}
+
+.mujer{
+	background-image: url('../img/min-video-1-2_480.jpg');
+	height: 600px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.pie{
+	background-image: url('../img/min-video-3_360.jpg');
+	height:300px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.comida{
+	background-image: url('../img/min-video-5_360.jpg');
+	height:300px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.entera{
+	background-image: url('../img/min-video-6_480.jpg');
+	height:300px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.parte-cuatro p{
+	color: $color_cuatro;
+}
+
+.center-align{
+	padding: 205px;
+}
+
+.center{
+	padding:80px;
+}
+
+.center-a{
+	padding:75px;
+}
+
+.center-al{
+	padding: 130px;
+}
+
+.parte-cinco{
+	background-image: url('../img/disfruta.jpg');
+	padding: 40vh;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.parallax{
+	background-image: url('../img/parallax-4_720.jpg');
+	padding: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.parallax h1{
+	text-align: center;
+}
+
 .page-footer{
 	background-color:$color_uno;
-	margin-top:40px;
+	
 }
